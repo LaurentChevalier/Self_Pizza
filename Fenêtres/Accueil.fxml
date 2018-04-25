@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="87.0" layoutY="28.0" style="&#10;" text="Pizzeria Del Romano" textAlignment="CENTER" wrapText="false">
+          <font>
+            <Font name="Britannic Bold" size="48.0" />
+          </font>
+        </Label>
+            <Label layoutX="115.0" layoutY="143.0" text="Ouvert du lundi au vendredi de 11h30 à 14h et de 18h à 21h">
+               <font>
+                  <Font name="Britannic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="192.0" text="Ouvert le samedi et le dimanche de 11h30 à 15h et de 18h à 23h">
+               <font>
+                  <Font name="Britannic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="435.0" layoutY="260.0" text="065/20.33.52">
+               <font>
+                  <Font name="Britannic Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="212.0" layoutY="285.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="189.0" text="Démarrer commande">
+               <font>
+                  <Font name="Britannic Bold" size="14.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
