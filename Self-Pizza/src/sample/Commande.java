@@ -8,7 +8,7 @@ import javafx.scene.control.Alert;
 public class Commande {
     static String plaque = new String();
     public String menu[]={"","","","","","","","","","","","",""};
-    public String quantité[]={"","","","","","","","","","","","",""};
+    public String quantité[]={"0","0","0","0","0","0","0","0","0","0","0","0","0"};
     public String prix[]={"0","0","0","0","0","0","0","0","0","0","0","0","0"};
     int total;
     int i;
@@ -51,7 +51,7 @@ public class Commande {
     public void calculerTotal(){
         int soustotal=0;
         for(int i=1; i<=getI(); i++){
-            soustotal+=Integer.parseInt(getPrix(i));
+            soustotal+=((Integer.parseInt(getPrix(i))*(Integer.parseInt(getQuantité(i)))));
         }
         this.setTotal(soustotal);
     }
